@@ -1,0 +1,46 @@
+{
+  "version": "0.0.6",
+  "name": "Wallace Toolbox",
+  "description": "An ultimate KaiOS toolbox",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "icons": {
+    "56": "/img/werewolf-56.png",
+    "112": "/img/werewolf-112.png"
+  },
+  "developer": {
+    "name": "Luxferre"
+  },
+  "origin": "app://wallace-toolbox.bananahackers.net",
+  "fullscreen": true,
+  "permissions": {
+    "engmode-extension": {
+      "description": "Handle KaiOS 2.5.1+ devices"
+    },
+    "external-api": {
+      "description": "Handle KaiOS 2.5.1+ devices"
+    },
+    "kaiosextension": {
+      "description": "Handle KaiOS 2.5 devices"
+    },
+    "jrdextension": {
+      "description": "Handle KaiOS 1.0 devices by TCL"
+    },
+    "power": {
+      "description": "Enable priviliged factory reset capability"
+    },
+    "settings": {
+      "access": "readwrite",
+      "description": "Enable hidden settings modification"
+    },
+    "device-storage:apps": {
+      "access": "readwrite",
+      "description": "Support package installation"
+    },
+    "webapps-manage": {
+      "description": "Support package installation"
+    }
+  },
+  "theme_color": "#006400",
+  "cursor": "false"
+}

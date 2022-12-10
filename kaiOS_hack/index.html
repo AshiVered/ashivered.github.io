@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <title>Wallace Toolbox</title>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+  <section id="title"><h1>Wallace Toolbox</h1></section>
+  <main>
+      1: ADB root (needs busybox)<br>
+    <span class="callrec">2: Call record ON/AUTO/OFF</span><br>
+      3: Install app package<br>
+    <span class="qualcommonly">4: Override TTL</span><br>
+    <span class="imeionly danger">5: Edit IMEI1</span><br>
+    <span class="imeionly sim2only danger">6: Edit IMEI2</span><br>
+      7: Proxy ON/OFF<br>
+      8: Set proxy host/port<br>
+    <span class="danger">9: Override user agent</span><br>
+    <span class="qualcommonly">*: Run overclock script</span><br>
+    <span class="qualcommonly">0: Toggle DIAG port</span><br>
+    <span class>#: Enable developer menu</span><br>
+    <span class="imeionly">Call/LSK: Edit Wi-Fi/BT MAC</span><br>
+    <span>RSK: Make all apps removable</span>
+  </main>
+  <script src="js/libwallace.js"></script>
+  <script src="js/app.js"></script>
+</body>
