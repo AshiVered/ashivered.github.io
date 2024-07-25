@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3x3 Grid Buttons</title>
+    <title>Floating Buttons</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
         body {
@@ -15,57 +15,61 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
+            overflow: hidden; /* למנוע גלילה */
         }
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(3, minmax(150px, 1fr)); /* עמודות גמישות */
-            grid-gap: 20px;
-            width: 90%;
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
             max-width: 800px;
-            padding: 20px;
-            box-sizing: border-box;
+            height: 80%;
+            position: relative; /* למיקום יחסי של הכפתורים */
         }
-        .grid-item {
+        .button {
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: #ffffff;
             border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* צללים מעודנים יותר */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* צללים מעודנים */
             text-align: center;
             cursor: pointer;
             transition: all 0.3s ease;
-            padding: 20px;
-            aspect-ratio: 1; /* יחס ריבועי */
-            min-height: 150px; /* גובה מינימלי */
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
         }
-        .grid-item:hover {
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* צללים חזקים יותר בהעברה */
+        .button:hover {
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* צללים חזקים יותר בהעברה */
             background-color: #e0e0e0; /* צבע רקע בהיר יותר בהעברה */
         }
-        .grid-item a {
+        .button a {
             color: #333333; /* צבע טקסט כהה */
             text-decoration: none;
             font-size: 1.2em;
             font-weight: 500;
             transition: color 0.3s ease;
         }
-        .grid-item a:hover {
+        .button a:hover {
             color: #555555; /* צבע טקסט כהה יותר בהעברה */
         }
     </style>
 </head>
 <body>
-    <div class="grid-container">
-        <div class="grid-item"><a href="https://www.inn.co.il">מספר אחד</a></div>
-        <div class="grid-item"><a href="https://www.inn.co.il">מספר שתיים</a></div>
-        <div class="grid-item"><a href="https://www.inn.co.il">מספר שלוש</a></div>
-        <div class="grid-item"><a href="https://www.inn.co.il">מספר ארבע</a></div>
-        <div class="grid-item"><a href="https://www.inn.co.il">מספר חמש</a></div>
-        <div class="grid-item"><a href="https://www.inn.co.il">מספר שש</a></div>
-        <div class="grid-item"><a href="https://www.inn.co.il">מספר שבע</a></div>
-        <div class="grid-item"><a href="https://www.inn.co.il">מספר שמונה</a></div>
-        <div class="grid-item"><a href="https://www.inn.co.il">מספר תשע</a></div>
+    <div class="button-container">
+        <div class="button"><a href="https://www.inn.co.il">מספר אחד</a></div>
+        <div class="button"><a href="https://www.inn.co.il">מספר שתיים</a></div>
+        <div class="button"><a href="https://www.inn.co.il">מספר שלוש</a></div>
+        <div class="button"><a href="https://www.inn.co.il">מספר ארבע</a></div>
+        <div class="button"><a href="https://www.inn.co.il">מספר חמש</a></div>
+        <div class="button"><a href="https://www.inn.co.il">מספר שש</a></div>
+        <div class="button"><a href="https://www.inn.co.il">מספר שבע</a></div>
+        <div class="button"><a href="https://www.inn.co.il">מספר שמונה</a></div>
+        <div class="button"><a href="https://www.inn.co.il">מספר תשע</a></div>
     </div>
 </body>
 </html>
