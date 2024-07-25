@@ -19,22 +19,25 @@
         .grid-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-auto-rows: minmax(150px, 1fr); /* התאמה לגובה הקוביות */
             grid-gap: 20px;
             width: 90%;
             max-width: 900px;
+            height: 90vh; /* התאמה לגובה המסך */
             padding: 20px;
+            box-sizing: border-box;
         }
         .grid-item {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 120px;
             background-color: #ffffff;
             border-radius: 12px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* צללים חזקים יותר */
             text-align: center;
             cursor: pointer;
             transition: all 0.3s ease;
+            overflow: hidden; /* למנוע טקסט או תוכן יוצא מגבולות הקוביה */
         }
         .grid-item:hover {
             box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* צללים חזקים עוד יותר בהעברה */
