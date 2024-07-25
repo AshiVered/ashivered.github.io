@@ -38,6 +38,8 @@
             cursor: pointer;
             transition: all 0.3s ease;
             overflow: hidden; /* למנוע טקסט או תוכן יוצא מגבולות הקוביה */
+            aspect-ratio: 1; /* שמירה על פרופורציה ריבועית */
+            max-height: 300px; /* הגבלת גובה מקסימלי */
         }
         .grid-item:hover {
             box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* צללים חזקים עוד יותר בהעברה */
