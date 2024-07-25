@@ -1,0 +1,16 @@
+[
+  {
+    "name": "WhatsApp",
+    "icon_url": "https://github.com/AshiVered/apny/raw/main/icon/wa.png",
+    "download_url": "https://github.com/AshiVered/apny/blob/main/app/wa.apk?raw=true",
+    "package_name": "com.whatsapp",
+    "app_version": "4.532.10001"
+  },
+  {
+    "name": "HARAV",
+    "icon_url": "https://raw.githubusercontent.com/AshiVered/apny/main/icon/harav.png",
+    "download_url": "https://github.com/AshiVered/apny/blob/main/app/harav.apk?raw=true",
+    "package_name": "com.example.app2",
+    "app_version": "1.2.3"
+  }
+]
