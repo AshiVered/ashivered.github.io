@@ -14,13 +14,14 @@
             background-color: #e8eaf6; /* צבע רקע בהיר עם גוון סגול */
             font-family: 'Roboto', sans-serif;
             margin: 0;
+            padding: 0;
         }
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             grid-gap: 20px;
-            width: 80%;
-            max-width: 600px;
+            width: 90%;
+            max-width: 900px;
             padding: 20px;
         }
         .grid-item {
@@ -30,13 +31,13 @@
             height: 120px;
             background-color: #ffffff;
             border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* צללים חזקים יותר */
             text-align: center;
             cursor: pointer;
             transition: all 0.3s ease;
         }
         .grid-item:hover {
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* צללים חזקים עוד יותר בהעברה */
             background-color: #f3e5f5; /* צבע רקע בהיר עם גוון סגול */
         }
         .grid-item a {
