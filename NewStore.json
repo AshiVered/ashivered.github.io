@@ -8,5 +8,10 @@
     "AppName": "כתבי ראי''ה",
     "AppIcon": "https://raw.githubusercontent.com/AshiVered/apny/main/icon/harav.png",
     "AppUrl": "https://github.com/AshiVered/apny/blob/main/app/harav.apk?raw=true"
+  },
+    {
+    "AppName": "Musicolet",
+    "AppIcon": "https://ashivered.github.io/apny/icon/in.krosbits.musicolet.png",
+    "AppUrl": "https://www.googleapis.com/drive/v3/files/1dt_jA934453TNWUdNXBFAcyk5QVv9fBi?alt=media&key=AIzaSyDduW1Zbi2MIu8aMUMF6op72pJ1f0sPBi0"
   }
 ]
