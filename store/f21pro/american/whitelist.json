@@ -29,11 +29,17 @@
   "com.mendelg.otzaria",
   "com.google.android.apps.messaging",
   "com.google.android.contacts",
-  "com.google.android.apps.mapslite",
+  "com.google.android.apps.maps",
   "com.google.android.apps.translate",
   "com.google.android.apps.docs.editors.sheets",
   "com.google.android.apps.docs.editors.docs",
   "com.google.android.calendar",
   "com.google.android.dialer",
-  "com.google.android.apps.docs.editors.slides"
+  "com.google.android.apps.docs.editors.slides",
+  "com.maltaisn.notes.sync",
+  "com.duokan.phone.remotecontroller",
+  "com.apple.bnd",
+  "com.google.android.gm",
+  "com.google.android.keep",
+  "com.ammy.applock"
 ]
