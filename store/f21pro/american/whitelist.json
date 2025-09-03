@@ -41,5 +41,6 @@
   "com.apple.bnd",
   "com.google.android.gm",
   "com.google.android.keep",
-  "com.ammy.applock"
+  "com.ammy.applock",
+  "com.rhythm.hexise.uninst"
 ]
